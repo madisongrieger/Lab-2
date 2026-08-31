@@ -1,8 +1,14 @@
+import math
 def circle_area(radius):
-  ### type your solution here
+
+   return math.pi * (radius**2)
 
 def square_area(side):
-  ### type your solution here
+ return side **2
 
-def inscribed_area(### replace with a single variable of your own naming convention):
-  ### type your solution here
+def inscribed_area(side)
+ return square_area(side) - circle_area(side/2)
+
+
+
+  
