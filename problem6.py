@@ -1,2 +1,3 @@
 def BMI(height, weight):
-  ### type your solution here
+    Index=(weight/ height**2) * 703
+    return Index
