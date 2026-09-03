@@ -6,8 +6,6 @@ def sum_coins(num_pennies, num_nickels, num_dimes, num_quaters):
 
 
 
-
-
 def return_amount(amount_paid, amount_owed):
   amount_left= amount_paid-amount_owed
   return amount_left
