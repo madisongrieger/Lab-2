@@ -1,2 +1,4 @@
 def maturity(time, temp, ratio):
-  ### type your solution here
+  from math import log
+answer= 23.7 * (time**3) + (temp / 273) + log(ratio)
+print(answer)
