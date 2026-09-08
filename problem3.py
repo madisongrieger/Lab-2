@@ -31,3 +31,4 @@ def inscribed_area(side):
    193.1417
    """
    return square_area(side) - circle_area(side/2)
+inscribed_area(12)
