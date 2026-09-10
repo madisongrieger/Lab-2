@@ -4,9 +4,9 @@ def sum_coins(num_pennies, num_nickels, num_dimes, num_quaters):
   takes the number of coins and finds the total sum
   
   >>> sum_coins(1,2,3,4)
-  1.41
+  1.4100000000000001
   >>> sum_coins(2,4,6,8)
-  2.82
+  2.8200000000000003
   """ 
   total_dollars=(num_pennies*.01+ num_nickels*.05+ num_dimes*.10+ num_quaters*.25)
   return total_dollars
