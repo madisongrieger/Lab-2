@@ -1,7 +1,7 @@
 import math
 def circle_area(radius):
   """
-  number->number
+  positive whole number-> positive whole number
   takes the radius and finds the area
   
   >>> circle_area(10)
@@ -13,7 +13,7 @@ def circle_area(radius):
 
 def square_area(side):
    """
-   number -> number
+   positive whole number -> positive whole number
    takes a number and finds the area
    
    >>> square_area(3)
@@ -25,7 +25,7 @@ def square_area(side):
 
 def inscribed_area(side):
    """
-   number -> number
+   positive whole number ->positive whole number
    takes the areas and subtracts one by the other
    
    >>> inscribed_area(12)
@@ -35,4 +35,3 @@ def inscribed_area(side):
    """
    return square_area(side) - circle_area(side/2)
 inscribed_area(12)
-30.902664470767448
