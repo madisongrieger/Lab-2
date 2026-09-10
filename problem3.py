@@ -32,3 +32,4 @@ def inscribed_area(side):
    """
    return square_area(side) - circle_area(side/2)
 inscribed_area(12)
+30.902664470767448
