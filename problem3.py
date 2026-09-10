@@ -7,7 +7,7 @@ def circle_area(radius):
   >>> circle_area(10)
   314.1592653589793
   >>> circle_area(4)
-  50.26548245743669 
+  50.26548245743669
   """
   return math.pi * (radius**2)
 
@@ -29,9 +29,9 @@ def inscribed_area(side):
    takes the areas and subtracts one by the other
    
    >>> inscribed_area(12)
-   30.9027
+   30.902664470767448
    >>> inscribed_area(30)
-   193.1417
+   193.14165294229656
    """
    return square_area(side) - circle_area(side/2)
 inscribed_area(12)
