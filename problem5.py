@@ -7,7 +7,7 @@ def maturity(time, temp, ratio):
   >>> maturity(1,2,3)
   24.805938295994117
   >>> maturity(2,4,6)
-  191.40590457685655
+  191.40641148388008
   """
   answer= 23.7 * (time**3) + (temp / 273) + log(ratio)
   print(answer)
