@@ -1,7 +1,8 @@
 def sum_coins(num_pennies, num_nickels, num_dimes, num_quaters):
   """
-  number -> number
+  positive number,positive number,positive number,positive number -> positive number
   takes the number of coins and finds the total sum
+  
   >>> sum_coins(1,2,3,4)
   1.41
   >>> sum_coins(2,4,6,8)
@@ -12,8 +13,9 @@ def sum_coins(num_pennies, num_nickels, num_dimes, num_quaters):
 
 def return_amount(amount_paid, amount_owed):
   """
-  number -> number 
+  positive number positive number -> number 
   takes the number paid and substracts the number owed
+
   >>> return_amount(12,4)
   8
   >>> return_amount(25,5)
