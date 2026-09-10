@@ -23,5 +23,5 @@ def return_amount(amount_paid, amount_owed):
   """
   amount_left= amount_paid-amount_owed
   return amount_left
- sum_coins(1,2,3,4)
- return_amount(12,4) 
+sum_coins(1,2,3,4)
+return_amount(12,4) 
