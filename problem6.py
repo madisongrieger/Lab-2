@@ -4,9 +4,9 @@ def BMI(height, weight):
     takes in height and weight to calculate BMI
 
     >>> BMI(68,150)
-    22.80925605536332
+    22.80493079584775
     >>> BMI(75,180)
-    12.497777777777777.
+    22.496000000000002
     """
     Index=(weight/ height**2) * 703
     return Index
