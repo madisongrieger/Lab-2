@@ -5,7 +5,7 @@ def BMI(height, weight):
 
     >>> BMI(68,150)
     22.80925605536332
-    >>>BMI(75,180)
+    >>> BMI(75,180)
     12.497777777777777.
     """
     Index=(weight/ height**2) * 703
